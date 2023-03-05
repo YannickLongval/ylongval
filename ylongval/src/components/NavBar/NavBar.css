@@ -1,0 +1,37 @@
+:root {
+    --background: #FFF7EF;
+    --text: #2E3840;
+}
+
+.navbar {
+    transition: ease 0.3s;
+    height: 70px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background);
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.navbarOptions {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.navbarOptions li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--text);
+}
+
+.logo {
+    width: 50px;
+    animation: App-logo-spin infinite 20s linear;
+}

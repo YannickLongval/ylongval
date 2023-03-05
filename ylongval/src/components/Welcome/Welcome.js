@@ -9,9 +9,9 @@ function Welcome() {
         <p>Welcome to my personal website. I’m Yannick, an avid computer science student interested in machine learning and automation. During my free time, I like to workout, and learn new things. This website in still under contruction, so in the meantime, you can view my work by clicking on the icons.</p>
         </div>
         <div className="Icons">
-            <Icon href="https://www.linkedin.com/in/yannick-longval/"/>
-            <Icon/>
-            <Icon/>
+            <Icon href="https://www.linkedin.com/in/yannick-longval/" name="linkedin.png"/>
+            <Icon href="https://github.com/YannickLongval" name="github.png"/>
+            {/* <Icon/> */}
         </div>
     </div>
   );

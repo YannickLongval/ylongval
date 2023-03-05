@@ -1,6 +1,14 @@
 .Icon {
     height: 100px;
     width: 100px;
-    background-color: #3B4853;
+    background-color: #FFFFFF;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Icon img {
+    height: 60px;
+    width: 60px;
 }

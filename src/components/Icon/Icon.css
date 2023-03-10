@@ -1,4 +1,4 @@
-.Icon {
+.bubble {
     height: 100px;
     width: 100px;
     background-color: #FFFFFF;
@@ -6,9 +6,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid #4E6E81;
 }
 
-.Icon img {
+.bubble .Icon {
     height: 60px;
     width: 60px;
+}
+
+.bubble .Picture {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
 }

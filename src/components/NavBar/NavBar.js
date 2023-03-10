@@ -16,9 +16,9 @@ function NavBar() {
     <div className="navbar">
         <img/>
         <ul className="navbarOptions">
+          <li><a href="#home">Home</a></li>
           <li><a href="#welcome">Welcome</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#home">Home</a></li>
         </ul>
     </div>
   );

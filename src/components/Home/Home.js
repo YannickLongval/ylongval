@@ -8,7 +8,7 @@ function Home() {
         <h1>Yannick Longval</h1>
         <h3>creative, innovative, passionate.</h3>
         </div>
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="./pictures/YLHeadshot.jpg" className="headshot" alt="logo" />
     </div>
   );
 }

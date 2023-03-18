@@ -1,0 +1,34 @@
+.project {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectImg {
+    width: 400px;
+    margin: 20px;
+    border: 3px solid #4E6E81;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px #F9DBBB;
+    /* pointer-events: none; */
+}
+
+.projectInfo {
+    width: 500px;
+    padding: 20px
+}
+
+.projectInfo h2{
+   margin: 10px 0;
+   font-size: 30px;
+   font-weight: 400;
+}
+
+.projectInfo p{
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 400;
+ }

@@ -1,0 +1,12 @@
+.Projects {
+    background-color: #FFF7EF;
+    color: #2E3840;
+    padding-top: 100px;
+}
+
+.Projects h1{
+    margin: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+  }

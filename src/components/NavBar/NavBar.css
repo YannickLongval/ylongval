@@ -1,6 +1,6 @@
 :root {
-    --background: #FFF7EF;
-    --text: #2E3840;
+    --background: var(--bg-primary);
+    --text: var(--text-primary);
 }
 
 .navbar {

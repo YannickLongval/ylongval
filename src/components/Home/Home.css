@@ -1,12 +1,12 @@
   .Home {
     text-align: center;
-    background-color: #FFF7EF;
+    background-color: var(--bg-primary);
     min-height: 90vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    color: #2E3840;
+    color: var(--text-primary);
   }
 
   .blurb h1{
@@ -25,10 +25,25 @@
   .headshot {
     height: 300px;
     margin: 20px;
-    border: 3px solid #4E6E81;
+    border: 3px solid var(--action-primary);
     border-radius: 10px;
-    box-shadow: 7px 7px 7px #F9DBBB;
+    box-shadow: 7px 7px 7px var(--bg-darker);
     /* pointer-events: none; */
+  }
+
+  @media screen and (max-width: 1000px) {
+    .Home {
+      flex-direction: column;
+      padding-top: 20px;
+    }
+    .blurb h1{
+      text-align: center;
+      font-size: 45px;
+    }
+    .blurb h3{
+      text-align: center;
+      font-size: 25px;
+    }
   }
   
   /* @media (prefers-reduced-motion: no-preference) {

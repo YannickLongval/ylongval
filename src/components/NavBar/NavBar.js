@@ -3,11 +3,11 @@ import './NavBar.css';
 window.addEventListener("scroll", function(){
   var r = document.querySelector(':root')
   if(window.scrollY<=50){
-    r.style.setProperty('--background', '#FFF7EF');
-    r.style.setProperty('--text', '#2E3840');
+    r.style.setProperty('--background', 'var(--bg-primary)');
+    r.style.setProperty('--text', 'var(--text-primary)');
   } else {
-    r.style.setProperty('--background', '#4E6E81');
-    r.style.setProperty('--text', '#FFFBF6');
+    r.style.setProperty('--background', 'var(--action-primary)');
+    r.style.setProperty('--text', 'var(--bg-lighter)');
   }
 });
 

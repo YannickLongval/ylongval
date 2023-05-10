@@ -1,6 +1,6 @@
 .Projects {
-    background-color: #FFF7EF;
-    color: #2E3840;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
     padding-top: 100px;
 }
 

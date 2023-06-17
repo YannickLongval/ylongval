@@ -20,6 +20,7 @@ function NavBar() {
         <ul className="navbarOptions">
           <li><a href="#home">Home</a></li>
           <li><a href="#welcome">Welcome</a></li>
+          <li><a href="#about">Me</a></li>
           <li><a href="#projects">Projects</a></li>
         </ul>
     </div>

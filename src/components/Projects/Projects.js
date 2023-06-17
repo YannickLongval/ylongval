@@ -5,6 +5,9 @@ function Projects() {
   return (
     <div className="Projects" id="projects">
         <h1>Projects</h1>
+        {/* <Project name="fitAI.png" href="https://github.com/YannickLongval/AIFit" title="Canadian Employment Rate Visualization" tech = "Pandas, Numpy, Tableau">
+        This dashboard displays historical data about the Employment rate in Canada based of various factors like Province and gender.
+        </Project> */}
         <Project name="ASLTranslator.png" href="https://github.com/YannickLongval/ASLTranslator" title="ASLTranslator" tech = "Tensorflow, OpenCV, OpenAI">
         ASLTranslator reads ASL characters from the webcam to generate words, which can then be translated into various languages. 
         </Project>

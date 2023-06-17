@@ -5,11 +5,11 @@ window.addEventListener("scroll", function(){
   if(window.scrollY<=50){
     r.style.setProperty('--background', 'var(--bg-primary)');
     r.style.setProperty('--text', 'var(--text-primary)');
-    r.style.setProperty('--hover', 'var(--text-secondary)');
+    // r.style.setProperty('--hover', 'var(--text-secondary)');
   } else {
     r.style.setProperty('--background', 'var(--action-primary)');
-    r.style.setProperty('--text', 'var(--text-secondary)');
-    r.style.setProperty('--hover', 'var(--bg-lighter)');
+    r.style.setProperty('--text', 'var(--bg-primary)');
+    // r.style.setProperty('--hover', 'var(--bg-lighter)');
   }
 });
 

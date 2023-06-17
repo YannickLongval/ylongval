@@ -5,8 +5,8 @@ function Welcome() {
   return (
     <div className="Welcome" id="welcome">
         <div className="greeting">
-        <h1>Greetings!</h1>
-        <p>Welcome to my personal website. I’m Yannick, an avid computer science student interested in machine learning and automation. During my free time, I like to workout, and learn new things.</p>
+        <h1>Hello, Salut, 你好</h1>
+        <p>Welcome to my personal website. Here you will find a bit about myself, as well as some highlighted projects that I have done &#40;although if you would like a more exhaustive list of my projects, I suggest you go check out my <a href="https://github.com/YannickLongval" target="blank">GitHub</a>&#41;.</p>
         </div>
         {/* <div className="Icons">
             <Icon name="YLHandstand.PNG" isPic={true}/>

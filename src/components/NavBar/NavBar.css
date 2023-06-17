@@ -1,6 +1,7 @@
 :root {
     --background: var(--bg-primary);
     --text: var(--text-primary);
+    --hover: var(--text-secondary)
 }
 
 .navbar {
@@ -26,9 +27,16 @@
 }
 
 .navbarOptions li a {
+    transition: 0.2s ease-in;
     text-decoration: none;
     font-size: 20px;
     color: var(--text);
+}
+
+.navbarOptions li a:hover {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--hover);
 }
 
 .logo {

@@ -1,10 +1,10 @@
 :root {
-  --text-primary: #03334b;
-  --text-secondary: #5f5f5f;
-  --bg-lighter: #FBF7C1;
-  --bg-primary: #FCD673;
-  --bg-darker: #E1AC48;
-  --action-primary: #025077;
+  --text-primary: #fdfdfd;
+  --text-secondary: #cecece;
+  --bg-lighter: #179b9d;
+  --bg-primary: #116D6E;
+  --bg-darker: #0f5b5d;
+  --action-primary: #321E1E;
 }
 
 

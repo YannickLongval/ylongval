@@ -6,7 +6,7 @@ function Project(props) {
         <div className='projectInfo'>
             <h2>{props.title}</h2>
             <p>{props.children}</p>
-            <p><b>Techologies:</b> {props.tech}</p>
+            <p><b>Technologies:</b> {props.tech}</p>
         </div>
             <a href={props.href} target="blank">
                 <img src={"./pictures/" + props.name} className="projectImg"/>

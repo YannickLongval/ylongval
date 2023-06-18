@@ -8,7 +8,7 @@ window.addEventListener("scroll", function(){
     // r.style.setProperty('--hover', 'var(--text-secondary)');
   } else {
     r.style.setProperty('--background', 'var(--action-primary)');
-    r.style.setProperty('--text', 'var(--bg-primary)');
+    r.style.setProperty('--text', 'var(--text-tertiary)');
     // r.style.setProperty('--hover', 'var(--bg-lighter)');
   }
 });
@@ -19,6 +19,7 @@ let changeMode = () => {
   var r = document.querySelector(':root')
   if(state === "light"){
     state = "dark"
+    document.getElementById('toggle').innerHTML = '☾'
     r.style.setProperty('--text-primary', '#F1F6F9');
     r.style.setProperty('--bg-lighter', '#303d5a');
     r.style.setProperty('--bg-primary', '#394867');
@@ -26,6 +27,7 @@ let changeMode = () => {
     r.style.setProperty('--action-primary', '#212A3E');
   } else {
     state = "light"
+    document.getElementById('toggle').innerHTML = '☀'
     r.style.setProperty('--text-primary', '#212A3E');
     r.style.setProperty('--bg-lighter', '#ffffff');
     r.style.setProperty('--bg-primary', '#F1F6F9');
@@ -37,7 +39,7 @@ let changeMode = () => {
 function NavBar() {
   return (
     <div className="navbar">
-        <button type="button" onClick={changeMode}>CHANGE MODE</button>
+        <button type="button" onClick={changeMode} id='toggle'>☀</button>
         <ul className="navbarOptions">
           <li><a href="#home">Home</a></li>
           <li><a href="#welcome">Welcome</a></li>

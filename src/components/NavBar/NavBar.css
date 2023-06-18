@@ -38,6 +38,23 @@
     color: var(--hover);
 }
 
+#toggle {
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    color: var(--text);
+}
+
+#toggle:hover {
+    cursor: pointer;
+}
+
+#toggle:active {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+ }
+
 .logo {
     width: 50px;
     animation: App-logo-spin infinite 20s linear;

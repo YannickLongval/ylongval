@@ -26,6 +26,13 @@
   font-weight: 400;
 }
 
+/* .Icons {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  justify-content: space-around;
+} */
 
 @media screen and (max-width: 1000px) {
   .greeting {

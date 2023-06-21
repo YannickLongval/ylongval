@@ -25,8 +25,12 @@
     list-style-type: none;
 }
 
+.navbarOptions li {
+    margin: 0 1rem;
+    overflow: hidden;
+}
+
 .navbarOptions li a {
-    transition: 0.2s ease-in;
     text-decoration: none;
     font-size: 20px;
     color: var(--text);
@@ -55,7 +59,79 @@
     -ms-transform: rotate(360deg);
  }
 
-.logo {
-    width: 50px;
-    animation: App-logo-spin infinite 20s linear;
+#menu-toggle {
+    display: none;
 }
+
+#menu-toggle:checked~label .menuBarTop{
+    transform:translateY(9px);
+}
+
+#menu-toggle:checked~label .menuBarBottom{
+    transform: translateY(-9px);
+}
+
+@media screen and (max-width: 600px) {
+    .greeting h1{
+      font-size: 30px;
+    }
+    .greeting p{
+      margin: 0;
+      text-align: center;
+      font-size: 15px;
+      font-weight: 400;
+    }
+
+    .navbarButton {
+        display: block;
+        cursor: pointer;
+    }
+
+    .navbarOptions {
+        position: absolute;
+        top: 0;
+        margin-top: 70px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .navbarButton span{
+        display: block;
+        height: 2px;
+        width: 30px;
+        background: var(--text);
+        margin: 8px auto;
+    }
+
+      #menu-toggle ~ .navbarOptions li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+      }
+      
+      #menu-toggle:checked ~ .navbarOptions li {
+        border-top: 1px solid #333;
+        height: 2.5em;
+        padding: 0.5em 0;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+      }
+
+      .navbarOptions > li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0.5em 0;
+        width: 100%;
+        background-color: var(--background);
+      }
+      .navbarOptions:last-child {
+        border-bottom: 2px solid #333;
+      }
+  }
+    

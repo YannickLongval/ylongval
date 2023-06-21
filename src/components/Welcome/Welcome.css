@@ -26,6 +26,10 @@
   font-weight: 400;
 }
 
+.greeting p a{
+  color: #CD1818;
+}
+
 /* .Icons {
   margin-top: 50px;
   display: flex;

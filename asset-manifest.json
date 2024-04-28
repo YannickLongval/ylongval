@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ylongval/static/css/main.7bb3c76c.css",
-    "main.js": "/ylongval/static/js/main.e6229cf6.js",
+    "main.css": "/ylongval/static/css/main.bd15fba8.css",
+    "main.js": "/ylongval/static/js/main.2da23a0e.js",
     "static/js/787.2f813009.chunk.js": "/ylongval/static/js/787.2f813009.chunk.js",
     "static/media/logo.svg": "/ylongval/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ylongval/index.html",
-    "main.7bb3c76c.css.map": "/ylongval/static/css/main.7bb3c76c.css.map",
-    "main.e6229cf6.js.map": "/ylongval/static/js/main.e6229cf6.js.map",
+    "main.bd15fba8.css.map": "/ylongval/static/css/main.bd15fba8.css.map",
+    "main.2da23a0e.js.map": "/ylongval/static/js/main.2da23a0e.js.map",
     "787.2f813009.chunk.js.map": "/ylongval/static/js/787.2f813009.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bb3c76c.css",
-    "static/js/main.e6229cf6.js"
+    "static/css/main.bd15fba8.css",
+    "static/js/main.2da23a0e.js"
   ]
 }

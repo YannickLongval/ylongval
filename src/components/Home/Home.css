@@ -31,6 +31,12 @@
     /* pointer-events: none; */
   }
 
+  .graph {
+    width: 50%;
+    margin: 20px;
+    /* pointer-events: none; */
+  }
+
   @media screen and (max-width: 1000px) {
     .Home {
       flex-direction: column;

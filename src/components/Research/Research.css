@@ -1,0 +1,22 @@
+.research {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    padding: 0 10%;
+    padding-top: 100px;
+
+}
+
+.research h1{
+    margin: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+  }
+
+.chatbox {
+    padding: 20px;
+    background-color: #fBfBfB;
+    border: 2px solid var(--text-primary);
+    border-radius: 10px;
+    color: #212A3E;
+}

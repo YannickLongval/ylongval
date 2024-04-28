@@ -9,7 +9,7 @@ function Project(props) {
             <p><b>Technologies:</b> {props.tech}</p>
         </div>
             <a href={props.href} target="blank">
-                <img src={"./pictures/" + props.name} className="projectImg"/>
+                <img src={"./pictures/" + props.name} className="projectImg"/> 
             </a>
         </div>
   );
